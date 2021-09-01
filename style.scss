@@ -1,5 +1,6 @@
 $green-color:green;
 $danger-color: red;
+$black-color: #000;
 
 body{
 
@@ -24,6 +25,7 @@ body{
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 4px;
+    color: $black-color;
 }
 
 .info--success{
