@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./skeleton/normalize.css">
+    <link rel="stylesheet" href="./skeleton/skeleton.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Directory App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rehber Uygulaması</h1>
+
+        <div class="info info--success">Başarılı</div>
+        <div class="info info--error">Hata çıktı</div>
+
+        <form id="form-directory">
+            <div>
+                <label for="name">Adı</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+            <div>
+                <label for="surname">Soyadı</label>
+                <input type="text" id="surname" class="u-full-width">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="u-full-width">
+            </div>
+            <div>
+                <input class="button-primary u-full-width" type="submit" value="Kaydet">
+            </div>
+        </form>
+
+        <hr>
+
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>İpek</td>
+                    <td>Coşkun</td>
+                    <td>ee@ee.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>İpek</td>
+                    <td>Coşkun</td>
+                    <td>ee@ee.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>İpek</td>
+                    <td>Coşkun</td>
+                    <td>ee@ee.com</td>
+                    <td>
+                        <button class="btn btn--edit"><i class="far fa-edit"></i></button>
+                        <button class="btn btn--delete"><i class="far fa-trash-alt"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
